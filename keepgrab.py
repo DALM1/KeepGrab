@@ -16,13 +16,13 @@ def get_image(url):
 def main():
     # Liste des URL des images à télécharger
     urls = [
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Mona_Lisa_by_Leonardo_da_Vinci.jpg/220px-Mona_Lisa_by_Leonardo_da_Vinci.jpg',
+        'https://genius.com/Don-krez-and-ronny-j-boomerang-annotated',
         'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Van_Gogh_-_The_Starry_Night_-_Google_Art_Project.jpg/220px-Van_Gogh_-_The_Starry_Night_-_Google_Art_Project.jpg',
         'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/The_Great_Wave_off_Kanagawa.jpg/220px-The_Great_Wave_off_Kanagawa.jpg'
     ]
 
     # Chemin du dossier de destination
-    destination = 'images'
+    destination = 'grab'
 
     # Créer le dossier de destination si nécessaire
     if not os.path.exists(destination):
